@@ -9,6 +9,9 @@ import { ContactComponent } from './contact/contact.component';
 import { Homechild1Component } from './home/homechild1/homechild1.component';
 import { Homechild2Component } from './home/homechild2/homechild2.component';
 import { Homechild3Component } from './home/homechild3/homechild3.component';
+import { TemplatedemoComponent } from './templatedemo/templatedemo.component';
+import { ProductDashboardModule } from './product-dashboard/product-dashboard.module';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,13 @@ import { Homechild3Component } from './home/homechild3/homechild3.component';
     ContactComponent,
     Homechild1Component,
     Homechild2Component,
-    Homechild3Component
+    Homechild3Component,
+    TemplatedemoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProductDashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
